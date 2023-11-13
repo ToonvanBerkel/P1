@@ -1,0 +1,36 @@
+:root {
+  --backgroundcolor-green: #2ecc71;
+  --color-blue: #3498db;
+  --color-white: #fff;
+  --color-gray: #333;
+  --color-red: #e74c3c;
+  --fontsize-24: 24px;
+  --padding-20: 20px;
+  --padding-10: 10px;
+}
+
+body {
+  background-color: var(--color-white);
+  font-family: Arial, sans-serif;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--color-blue);
+  font-size: var(--fontsize-24);
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--color-red);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--backgroundcolor-green);
+  color: var(--color-white);
+  padding: var(--padding-10) var(--padding-20);
+  border: none;
+  cursor: pointer;
+}
