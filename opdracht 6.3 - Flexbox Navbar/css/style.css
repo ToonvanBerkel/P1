@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    list-style: none;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    overflow: hidden;
+    font-size: xx-large;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 25vw;
+    justify-content: left;
+}
+
+.login {
+    display: flex;
+    width: 25vw;
+    justify-content: right;
+}
+
+ul {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
